@@ -1,0 +1,25 @@
+.easyui-layout {
+    width: 1900px;
+    height: 800px;
+}
+
+.nav {
+    height: 90px;
+    background: #6b9cde;
+    /*字体样式*/
+    text-align: left;
+    font-size: 55px;
+    /*字体间距*/
+    letter-spacing: 16px;
+    /*字体加粗*/
+    font-weight: bolder;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.meau {
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+}
+

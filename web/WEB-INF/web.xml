@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--<welcome-file-list>-->
+    <!--<welcome-file>jsp/manageEasyui.jsp</welcome-file>-->
+    <!--</welcome-file-list>-->
+    <!--登录界面的配置路径-->
+    <servlet>
+        <servlet-name>adminAction</servlet-name>
+        <servlet-class>com.daralisdan.action.AdminAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminAction</servlet-name>
+        <url-pattern>/action/adminAction</url-pattern>
+    </servlet-mapping>
+
+    <!--获取系统属性的路径-->
+    <servlet>
+        <servlet-name>systemInfoAction</servlet-name>
+        <servlet-class>com.daralisdan.action.SystemInfoAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>systemInfoAction</servlet-name>
+        <url-pattern>/action/SystemInfoAction</url-pattern>
+    </servlet-mapping>
+
+    <!--管理员维护-->
+    <servlet>
+        <servlet-name>adminMaintainAction</servlet-name>
+        <servlet-class>com.daralisdan.action.AdminMaintainAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminMaintainAction</servlet-name>
+        <url-pattern>/action/adminMaintainAction</url-pattern>
+    </servlet-mapping>
+
+    <!--管理员维护，保存数据请求-->
+    <servlet>
+        <servlet-name>adminMaintainSaveAction</servlet-name>
+        <servlet-class>com.daralisdan.action.AdminMaintainSaveAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminMaintainSaveAction</servlet-name>
+        <url-pattern>/action/adminMaintainSaveAction</url-pattern>
+    </servlet-mapping>
+
+
+    <!--会员管理-->
+    <servlet>
+        <servlet-name>adminUserAction</servlet-name>
+        <servlet-class>com.daralisdan.action.AdminUserAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminUserAction</servlet-name>
+        <url-pattern>/action/adminUserAction</url-pattern>
+    </servlet-mapping>
+    <!--会员管理,保存数据请求 添加，修改数据-->
+    <servlet>
+        <servlet-name>adminUserSaveAction</servlet-name>
+        <servlet-class>com.daralisdan.action.AdminUserSaveAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminUserSaveAction</servlet-name>
+        <url-pattern>/action/adminUserSaveAction</url-pattern>
+    </servlet-mapping>
+
+    <!--菜品类别-->
+    <servlet>
+        <servlet-name>foodsCatalogAction</servlet-name>
+        <servlet-class>com.daralisdan.action.FoodsCatalogAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>foodsCatalogAction</servlet-name>
+        <url-pattern>/action/foodsCatalogAction</url-pattern>
+    </servlet-mapping>
+
+</web-app>

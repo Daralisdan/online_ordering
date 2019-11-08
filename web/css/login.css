@@ -1,0 +1,105 @@
+body {
+    height: 100%;
+    /*背景颜色渐变*/
+    background-image: linear-gradient(white, cornflowerblue);
+}
+
+.text {
+    /*字体样式*/
+    text-align: center;
+    font-size: 60px;
+    /*字体间距*/
+    letter-spacing: 16px;
+    /*字体加粗*/
+    font-weight: bolder;
+    color: cornflowerblue;
+    /*div样式*/
+    height: 66px;
+    padding-top: 35px;
+    padding-bottom: 130px;
+}
+
+.login {
+    height: 300px;
+    width: 600px;
+    background: aliceblue;
+    /*div居中*/
+    margin: 0px auto;
+    /*div 四角的弯曲程度，圆角矩形*/
+    border-radius: 22px;
+    /*div盒子的阴影*/
+    box-shadow: 10px 10px 5px slategray;
+}
+
+.admin_login {
+    /*div样式*/
+    height: 40px;
+    background: burlywood;
+    /*左上角，右上角的弧度*/
+    border-radius: 22px 22px 0px 0px;
+}
+
+.center {
+    width: 300px;
+    /*div居中*/
+    margin: 0px auto;
+}
+
+.admin_login_type {
+    /*字体样式*/
+    text-align: center;
+    font-size: 30px;
+    /*字体间距*/
+    letter-spacing: 10px;
+    line-height: 40px;
+    color: #3f7ced;
+    font-weight: bolder;
+}
+
+
+.div2 {
+    height: 33px;
+    background: burlywood;
+    margin-top: 40px;
+
+}
+
+.div_name {
+    float: left;
+    /*background: #3f7ced;*/
+    width: 100px;
+    font-size: 20px;
+    height: 33px;
+    text-align: center;
+    /*字体间距*/
+    letter-spacing: 5px;
+    color: #3f7ced;
+    font-weight: bolder;
+}
+
+.div_input {
+    float: left;
+    background: thistle;
+}
+
+.inBox {
+    height: 33px;
+    width: 200px;
+}
+
+.btn {
+    height: 33px;
+    width: 100px;
+    color: #3f7ced;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.div_btn1 {
+    margin-left: 10px;
+}
+
+.div_btn2 {
+    margin-left: 70px;
+}

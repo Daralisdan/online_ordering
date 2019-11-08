@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- 引入JQuery -->
+    <script type="text/javascript" src="../easyui/jquery.min.js"></script>
+    <!-- 引入EasyUI -->
+    <script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+    <!-- 引入EasyUI的中文国际化js，让EasyUI支持中文 -->
+    <script type="text/javascript" src="../easyui/locale/easyui-lang-zh_CN.js"></script>
+    <!-- 引入EasyUI的样式文件-->
+    <link rel="stylesheet" href="../easyui/themes/default/easyui.css" type="text/css"/>
+    <!-- 引入EasyUI的图标样式文件-->
+    <link rel="stylesheet" href="../easyui/themes/icon.css" type="text/css"/>
+
+    <link rel="stylesheet" href="../css/manageEasyui.css">
+
+
+</head>
+<body>
+<div class="easyui-layout" style="width:1900px;height:750px;">
+    <div data-options="region:'north'" style="height:90px">后台管理页面</div>
+    <div data-options="region:'west',split:true" title="后台管理模块" style="width:300px;">
+        <div id="sm" class="easyui-sidemenu" data-options="data:data" style="width:295px;"></div>
+
+    </div>
+    <div data-options="region:'center',title:'显示栏'">
+        <a id="btn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">easyui</a>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
